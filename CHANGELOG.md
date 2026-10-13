@@ -7,6 +7,7 @@ Toate schimbările importante ale aplicației, cele mai noi primele.
 ### Adăugat
 - **Rotirea chenarului copertei** în editor, cu un mâner deasupra copertei. Se „lipește” de 0°, 90°, 180° și 270°.
 - Butonul **⟲ Îndreaptă**, care readuce chenarul drept dintr-un click.
+- Iconiță pentru aplicație: fișier, fereastră și bara de activități.
 
 ## [8.4c] — 13 octombrie 2026
 
