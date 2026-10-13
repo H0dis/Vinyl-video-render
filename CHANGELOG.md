@@ -12,6 +12,7 @@ Toate schimbările importante ale aplicației, cele mai noi primele.
 - Câmpul „Casă de discuri” devine **„Piesă”**.
 - Varianta (ex. Red Vinyl) e albă, ca restul textului. Linia de sub preț a fost scoasă, iar iconițele sunt puțin mai mari.
 - Poziția implicită pe video: **X 37%, Y 48,5%**.
+- Folderul `out` de lângă poză conține acum doar coperta și discul. Fișierele interne (imaginea de debug și cea combinată) nu mai apar acolo.
 
 ## [8.5] — 13 octombrie 2026
 
