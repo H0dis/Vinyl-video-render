@@ -4,7 +4,7 @@ Ghid pentru autor. Butonul **⟳ Actualizări** din aplicație citește ultimul 
 
 ## 1. Mărește numărul versiunii
 
-În `updater.py`:
+În `src/updater.py`:
 
 ```python
 CURRENT_VERSION = "8.4d"
@@ -18,12 +18,12 @@ Textul de sub titlul aplicației (`©Hodis Florin v8.4d`) se ia automat de aici.
 
 | Câmp | Valoare |
 |---|---|
-| Script Location | `extract_disc_cover_gui.py` |
+| Script Location | `src/extract_disc_cover_gui.py` |
 | Onefile | **One File** |
 | Console Window | **Window Based** |
-| Additional Files | **Add Folder** → folderul `fonts`, destinație `fonts` |
+| Additional Files | **Add Folder** → folderul `src/fonts`, destinație `fonts` |
 
-Apasă **CONVERT .PY TO .EXE**, apoi deschide exe-ul o dată și verifică rapid: încarcă o poză, apasă **Detectează** și deschide **✏️ Text**.
+La *Settings → Output Directory* alege folderul `build`. Apasă **CONVERT .PY TO .EXE**, apoi deschide exe-ul o dată și verifică rapid: încarcă o poză, apasă **Detectează** și deschide **✏️ Text**.
 
 ## 3. Publică pe GitHub
 
