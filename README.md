@@ -35,7 +35,7 @@ flowchart LR
 | ✏️ **Editor manual** | Colțurile copertei în mod dreptunghi sau perspectivă liberă, cercuri mutabile și redimensionabile, linie de separare disc / copertă. |
 | 🎬 **Animație pe video** | Coperta și discurile intră împreună, ca un singur obiect, exact cum apar în poză. |
 | 🎚️ **Poziție cu preview** | Muți rezultatul pe orizontală și verticală direct pe un cadru din video. |
-| 🔤 **Text pe video** | Artist, album, variantă, casă de discuri, dată, preț și etichetă (PRE-ORDER, ÎN STOC…), cu fade-in. Se poate muta, mări și colora. |
+| 🔤 **Text pe video** | Artist, album, variantă, piesă, dată, preț și etichetă (PRE-ORDER, ÎN STOC…), cu fade-in. Se poate muta, mări și colora. |
 | ⟳ **Actualizare dintr-un click** | Butonul **Actualizări** descarcă și instalează singur ultima versiune de aici. |
 
 ## Instalare

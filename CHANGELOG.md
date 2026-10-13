@@ -2,6 +2,17 @@
 
 Toate schimbările importante ale aplicației, cele mai noi primele.
 
+## [8.6] — 13 octombrie 2026
+
+### Adăugat
+- Mânere pe **laturile** chenarului copertei: tragi o latură și coperta se redimensionează doar pe acea direcție.
+- Buton **📂 Folder** pentru folderul de export și opțiunea de a salva și **coperta (PNG)** lângă video. După procesare, aplicația oferă să deschidă folderul.
+
+### Schimbat
+- Câmpul „Casă de discuri” devine **„Piesă”**.
+- Varianta (ex. Red Vinyl) e albă, ca restul textului. Linia de sub preț a fost scoasă, iar iconițele sunt puțin mai mari.
+- Poziția implicită pe video: **X 37%, Y 48,5%**.
+
 ## [8.5] — 13 octombrie 2026
 
 ### Adăugat
