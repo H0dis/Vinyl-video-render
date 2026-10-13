@@ -2,6 +2,12 @@
 
 Toate schimbările importante ale aplicației, cele mai noi primele.
 
+## [8.7] — 13 octombrie 2026
+
+### Reparat
+- Pe unele laptopuri butonul **⟳ Actualizări** spunea „Nu mă pot conecta la GitHub”, deși internetul mergea. Windows nu avea încă certificatul de securitate folosit de GitHub. Aplicația are acum propria listă de certificate.
+- Mesajele de eroare la actualizare spun acum cauza: certificat sau antivirus, conexiune expirată, fără internet.
+
 ## [8.6] — 13 octombrie 2026
 
 ### Adăugat
