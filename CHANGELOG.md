@@ -9,6 +9,9 @@ Toate schimbările importante ale aplicației, cele mai noi primele.
 - Butonul **⟲ Îndreaptă**, care readuce chenarul drept dintr-un click.
 - Iconiță pentru aplicație: fișier, fereastră și bara de activități.
 
+### Reparat
+- După o actualizare, aplicația repornea cu eroarea „Failed to load Python DLL”. Repornirea merge acum corect, începând de la această versiune.
+
 ## [8.4c] — 13 octombrie 2026
 
 ### Adăugat
