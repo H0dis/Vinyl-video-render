@@ -1,0 +1,13 @@
+# exe-urile se publica in Releases, nu in repository
+*.exe
+*.zip
+
+# codul sursa ramane privat
+*.py
+__pycache__/
+build/
+dist/
+out/
+
+Thumbs.db
+desktop.ini
