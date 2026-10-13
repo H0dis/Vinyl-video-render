@@ -21,7 +21,8 @@ Textul de sub titlul aplicației (`©Hodis Florin v8.4d`) se ia automat de aici.
 | Script Location | `src/extract_disc_cover_gui.py` |
 | Onefile | **One File** |
 | Console Window | **Window Based** |
-| Additional Files | **Add Folder** → folderul `src/fonts`, destinație `fonts` |
+| Icon | `src/app.ico` |
+| Additional Files | **Add Folder** → folderul `src/fonts`, destinație `fonts`<br>**Add Files** → `src/app.ico`, destinație `.` |
 
 La *Settings → Output Directory* alege folderul `build`. Apasă **CONVERT .PY TO .EXE**, apoi deschide exe-ul o dată și verifică rapid: încarcă o poză, apasă **Detectează** și deschide **✏️ Text**.
 
