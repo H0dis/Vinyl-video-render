@@ -2,7 +2,7 @@
 
 Toate schimbările importante ale aplicației, cele mai noi primele.
 
-## [8.4d] — 13 octombrie 2026
+## [8.5] — 13 octombrie 2026
 
 ### Adăugat
 - **Rotirea chenarului copertei** în editor, cu un mâner deasupra copertei. Se „lipește” de 0°, 90°, 180° și 270°.
