@@ -6,7 +6,9 @@ Toate schimbările importante ale aplicației, cele mai noi primele.
 
 ### Adăugat
 - Tab nou, **🎵 Conversie tracklist**, chiar în aplicație. Lipești un tracklist brut, apeși **Procesează** și primești lista curată, fără timpi și cu artiștii invitați la sfârșit (Feat. A & B). Logica de conversie e cea din scriptul original, neschimbată.
-- Tab-uri în partea de sus: **Video editor** și **Conversie tracklist**.
+- Tab nou, **🖼️ Aplicare șablon**: aplici o poză pe un șablon (față sau spate), cu logo opțional, exact ca în scriptul original.
+- **Salvare pentru web** în tabul de șablon: WebP (implicit, calitate 90), JPEG sau PNG, cu glisor de calitate. La pozele de produs, WebP la 90 ocupă cu ~85% mai puțin decât PNG, fără diferență vizibilă.
+- Tab-uri în partea de sus: **Video editor**, **Aplicare șablon** și **Conversie tracklist**.
 
 ## [8.7] — 13 octombrie 2026 (publicat ca v8.6b)
 
