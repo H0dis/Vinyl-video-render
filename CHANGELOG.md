@@ -2,7 +2,13 @@
 
 Toate schimbările importante ale aplicației, cele mai noi primele.
 
-## [8.7] — 13 octombrie 2026
+## [8.8] — 16 octombrie 2026
+
+### Adăugat
+- Tab nou, **🎵 Conversie tracklist**, chiar în aplicație. Lipești un tracklist brut, apeși **Procesează** și primești lista curată, fără timpi și cu artiștii invitați la sfârșit (Feat. A & B). Logica de conversie e cea din scriptul original, neschimbată.
+- Tab-uri în partea de sus: **Video editor** și **Conversie tracklist**.
+
+## [8.7] — 13 octombrie 2026 (publicat ca v8.6b)
 
 ### Reparat
 - Pe unele laptopuri butonul **⟳ Actualizări** spunea „Nu mă pot conecta la GitHub”, deși internetul mergea. Windows nu avea încă certificatul de securitate folosit de GitHub. Aplicația are acum propria listă de certificate.
