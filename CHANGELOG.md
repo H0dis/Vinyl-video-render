@@ -11,6 +11,7 @@ Toate schimbările importante ale aplicației, cele mai noi primele.
 - Tab-uri în partea de sus: **Video editor**, **Aplicare șablon** și **Conversie tracklist**.
 - Buton **💿 Disc** pentru pozele care vin fără disc: taie un disc (implicit „vinyl overlay”, inclus în aplicație) și îl lipește lângă copertă, ca și cum ar ieși din ea. Poți alege cât iese din copertă (50% = jumătate) și cât de mare e, cu previzualizare, sau poți alege alt disc.
 - Opțiunea **0** la „Discuri în poză”: detectează doar coperta, pentru pozele fără disc.
+- Dacă poza pare să nu aibă disc, aplicația întreabă dacă folosește doar coperta, ca să poți adăuga un disc propriu.
 
 ### Schimbat
 - Nu se mai salvează fișiere lângă poze (folderul `out`). Coperta, discul și imaginea combinată stau într-un folder temporar, șters la închiderea aplicației. Am scos bifa „Salvează și coperta lângă video” și butonul care deschidea folderul de rezultate.
