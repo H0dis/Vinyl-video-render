@@ -17,6 +17,7 @@ Toate schimbările importante ale aplicației, cele mai noi primele.
 - Nu se mai salvează fișiere lângă poze (folderul `out`). Coperta, discul și imaginea combinată stau într-un folder temporar, șters la închiderea aplicației. Am scos bifa „Salvează și coperta lângă video” și butonul care deschidea folderul de rezultate.
 
 ### Reparat
+- Diacriticele (Ă, Â, Î, Ș, Ț) de pe prima linie a textului de pe video apăreau tăiate sus. Acum se văd întregi, iar textul rămâne unde era.
 - Pozele, videoclipurile și șabloanele din foldere cu litere românești în nume (ș, ț, ă…) se citesc și se salvează corect. Înainte, aplicația nu le deschidea sau nu salva nimic, fără mesaj.
 
 ## [8.7] — 13 octombrie 2026 (publicat ca v8.6b)
