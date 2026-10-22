@@ -9,6 +9,14 @@ Toate schimbările importante ale aplicației, cele mai noi primele.
 - Tab nou, **🖼️ Aplicare șablon**: aplici o poză pe un șablon (față sau spate), cu logo opțional, exact ca în scriptul original.
 - **Salvare pentru web** în tabul de șablon: WebP (implicit, calitate 90), JPEG sau PNG, cu glisor de calitate. La pozele de produs, WebP la 90 ocupă cu ~85% mai puțin decât PNG, fără diferență vizibilă.
 - Tab-uri în partea de sus: **Video editor**, **Aplicare șablon** și **Conversie tracklist**.
+- Buton **💿 Disc** pentru pozele care vin fără disc: taie un disc (implicit „vinyl overlay”, inclus în aplicație) și îl lipește lângă copertă, ca și cum ar ieși din ea. Poți alege cât iese din copertă (50% = jumătate) și cât de mare e, cu previzualizare, sau poți alege alt disc.
+- Opțiunea **0** la „Discuri în poză”: detectează doar coperta, pentru pozele fără disc.
+
+### Schimbat
+- Nu se mai salvează fișiere lângă poze (folderul `out`). Coperta, discul și imaginea combinată stau într-un folder temporar, șters la închiderea aplicației. Am scos bifa „Salvează și coperta lângă video” și butonul care deschidea folderul de rezultate.
+
+### Reparat
+- Pozele, videoclipurile și șabloanele din foldere cu litere românești în nume (ș, ț, ă…) se citesc și se salvează corect. Înainte, aplicația nu le deschidea sau nu salva nimic, fără mesaj.
 
 ## [8.7] — 13 octombrie 2026 (publicat ca v8.6b)
 

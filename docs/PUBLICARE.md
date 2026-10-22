@@ -22,7 +22,7 @@ Textul de sub titlul aplicației (`©Hodis Florin v8.4d`) se ia automat de aici.
 | Onefile | **One File** |
 | Console Window | **Window Based** |
 | Icon | `src/app.ico` |
-| Additional Files | **Add Folder** → folderul `src/fonts`, destinație `fonts`<br>**Add Files** → `src/app.ico`, destinație `.` |
+| Additional Files | **Add Folder** → folderul `src/fonts`, destinație `fonts`<br>**Add Files** → `src/app.ico`, destinație `.`<br>**Add Folder** → folderul `src/discs`, destinație `discs` |
 
 La *Settings → Output Directory* alege folderul `build`. Apasă **CONVERT .PY TO .EXE**, apoi deschide exe-ul o dată și verifică rapid: încarcă o poză, apasă **Detectează** și deschide **✏️ Text**.
 
