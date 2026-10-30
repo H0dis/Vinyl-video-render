@@ -7,32 +7,43 @@ Ghid pentru autor. Butonul **⟳ Actualizări** din aplicație citește ultimul 
 În `src/updater.py`:
 
 ```python
-CURRENT_VERSION = "8.4d"
+CURRENT_VERSION = "9.0"
 ```
 
-Textul de sub titlul aplicației (`©Hodis Florin v8.4d`) se ia automat de aici. Ordinea versiunilor: `8.4c` < `8.4d` < `8.5` < `9.0`.
+De aici se iau automat textul de sub titlul aplicației (`©Hodis Florin v9.0`), informațiile de versiune din exe și numele installer-ului. Ordinea versiunilor: `8.4c` < `8.4d` < `8.5` < `9.0` < `9.0a`.
 
-## 2. Compilează exe-ul
+## 2. Construiește installer-ul
 
-În **auto-py-to-exe**:
+O singură dată, instalează Inno Setup:
 
-| Câmp | Valoare |
-|---|---|
-| Script Location | `src/extract_disc_cover_gui.py` |
-| Onefile | **One File** |
-| Console Window | **Window Based** |
-| Icon | `src/app.ico` |
-| Additional Files | **Add Folder** → folderul `src/fonts`, destinație `fonts`<br>**Add Files** → `src/app.ico`, destinație `.`<br>**Add Folder** → folderul `src/discs`, destinație `discs` |
+```powershell
+winget install JRSoftware.InnoSetup
+```
 
-La *Settings → Output Directory* alege folderul `build`. Apasă **CONVERT .PY TO .EXE**, apoi deschide exe-ul o dată și verifică rapid: încarcă o poză, apasă **Detectează** și deschide **✏️ Text**.
+Apoi, la fiecare versiune, din folderul proiectului:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File packaging\build.ps1
+```
+
+Scriptul face două lucruri:
+- rulează PyInstaller în modul **folder** (onedir, cu fonturile, discurile, iconița și certificatele incluse);
+- împachetează folderul cu Inno Setup.
+
+La final afișează calea installer-ului (`build\<versiune>\VinylVideoRender_Setup_<versiune>.exe`), mărimea și amprenta SHA256.
+
+Instalează-l o dată și verifică rapid: încarcă o poză, apasă **Detectează** și deschide **✏️ Text**.
+
+> [!IMPORTANT]
+> Nu mai folosi auto-py-to-exe cu **One File**. Un exe onefile se dezarhivează singur în folderul temporar la fiecare pornire, iar antivirusurile îl consideră suspect din cauza asta.
 
 ## 3. Publică pe GitHub
 
 1. Pe pagina repository-ului: **Releases → Draft a new release**.
-2. **Choose a tag**: scrie `v8.4d` (exact versiunea, cu `v` în față) și apasă *Create new tag*.
-3. **Title**: de exemplu `Versiunea 8.4d`.
+2. **Choose a tag**: scrie `v9.0` (exact versiunea, cu `v` în față) și apasă *Create new tag*.
+3. **Title**: de exemplu `Versiunea 9.0`.
 4. **Descriere**: ce e nou, în câteva rânduri. Textul apare utilizatorului în fereastra de actualizare.
-5. Trage exe-ul în zona **Attach binaries** și așteaptă să se încarce complet.
+5. Trage **doar installer-ul** (`VinylVideoRender_Setup_….exe`) în zona **Attach binaries** și așteaptă să se încarce complet. Nu atașa și alte `.exe`: versiunile 8.x iau orice `.exe` găsesc.
 6. **Publish release**.
 
 ## 4. Actualizează CHANGELOG.md
@@ -42,3 +53,5 @@ Adaugă o secțiune nouă sus, cu data și ce s-a schimbat.
 ## Verificare
 
 Pe un calculator cu versiunea veche: **⟳ Actualizări** trebuie să arate noua versiune. După instalare, aplicația pornește singură, iar sub titlu apare noul număr.
+
+De la 8.x la 9.0, prima actualizare arată o bară de progres, apoi aplicația pornește din locul nou. Exe-ul 8.x rămas pe Desktop devine installer-ul 9.0: dacă e deschis din nou, vede că e deja instalată o versiune la fel de nouă sau mai nouă și doar pornește aplicația. De la 9.0 încolo, actualizările se instalează fără ferestre.

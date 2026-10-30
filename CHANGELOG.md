@@ -2,6 +2,30 @@
 
 Toate schimbările importante ale aplicației, cele mai noi primele.
 
+## [9.1] — 30 octombrie 2026
+
+Prima versiune publicată din seria 9. Versiunea 9.0 a fost doar de test și n-a fost publicată.
+
+### Adăugat
+- Video editorul deschide și poze **WebP**, inclusiv cu fundal transparent. Zonele transparente sunt tratate ca fundal alb de studio.
+
+### Schimbat
+- Aplicația vine acum cu **installer** (`VinylVideoRender_Setup_9.1.exe`). Nu pune nicio întrebare: dublu-clic, bară de progres, iar aplicația pornește. Se instalează pentru utilizatorul curent, fără drepturi de administrator, și pune scurtături pe Desktop și în meniul Start. Exe-ul nu se mai dezarhivează singur în folderul temporar la fiecare pornire. Antivirusurile considerau asta suspect, iar aplicația pornește acum mai repede.
+- Exe-ul are acum informații de versiune și autor (Proprietăți → Detalii).
+- Actualizarea automată descarcă installer-ul, îl rulează fără ferestre și repornește aplicația.
+- Pozele mari, făcute cu telefonul, se procesează mult mai repede și cu mult mai puțină memorie. O poză de 12 MP durează ~5 s în loc de ~30 s și folosește ~0,7 GB de memorie în loc de ~2,6 GB. Coperta și discul se exportă tot la rezoluția originală.
+- Ferestrele **🎚 Poziție**, **✏️ Text** și **💿 Disc** nu mai blochează fereastra principală. Un al doilea clic aduce în față fereastra deja deschisă, în loc să deschidă încă una.
+- **Aplică și exportă** lucrează pe fundal, iar fereastra nu mai îngheață la pozele mari.
+- Pe ecranele mici, preview-ul din dreapta se micșorează ca butonul **▶ Procesează video** să rămână vizibil.
+
+### Reparat
+- La o poză complet uniformă, fără niciun obiect, detecția rula la nesfârșit și butoanele rămâneau blocate.
+- Numele de fișier cu caractere interzise în Windows (`: ? * " < > |`), cu nume rezervate (`CON`, `NUL`…) sau foarte lungi dădeau un video gol de 0 KB sau o eroare tehnică. Numele se corectează acum automat.
+- Un video existent cu același nume se suprascria fără întrebare. Acum aplicația întreabă.
+- O copertă trasă greșit în editor (colțuri strânse într-un punct, încrucișate sau scoase din poză) se exporta ca imagine goală. Acum exportul se oprește, cu explicație.
+- Dacă GitHub sau rețeaua trimiteau un răspuns neașteptat, de exemplu pagina de login a unui Wi-Fi public, butonul **⟳ Actualizări** rămânea blocat pe „Se verifică…”.
+- Versiunea publicată ca v8.9 raporta în aplicație 8.8 și oferea la nesfârșit aceeași actualizare.
+
 ## [8.8] — 16 octombrie 2026
 
 ### Adăugat

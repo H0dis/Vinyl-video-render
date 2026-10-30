@@ -44,16 +44,20 @@ flowchart LR
 ## Instalare
 
 1. Deschide pagina **[Releases](https://github.com/H0dis/Vinyl-video-render/releases/latest)**.
-2. Descarcă fișierul `.exe` din secțiunea *Assets*.
-3. Pune-l într-un folder în care ai drept de scriere (de exemplu *Desktop* sau *Documente*, **nu** *Program Files*), ca actualizările să se poată instala.
-4. Pornește-l. Nu necesită instalare sau alte programe.
+2. Descarcă `VinylVideoRender_Setup_<versiune>.exe` din secțiunea *Assets*.
+3. Dă dublu-clic pe el. Fără nicio întrebare: apare o bară de progres, apoi aplicația pornește. Se instalează doar pentru utilizatorul tău, fără drepturi de administrator, cu scurtături pe Desktop și în meniul Start.
+
+Dezinstalarea se face din *Setări → Aplicații*, ca la orice program.
 
 > [!NOTE]
-> Windows SmartScreen sau antivirusul pot avertiza la prima pornire, pentru că aplicația nu e semnată digital. Alege *Mai multe informații → Rulează oricum* sau adaugă o excepție pentru folderul aplicației.
+> Windows SmartScreen poate avertiza la prima rulare a installer-ului, pentru că aplicația nu e semnată digital. Alege *Mai multe informații → Rulează oricum*.
 
 ## Actualizări
 
-În aplicație, butonul **⟳ Actualizări** din colțul dreapta-sus verifică dacă există o versiune nouă aici. Dacă există, o descarcă, verifică integritatea fișierului, se închide, se înlocuiește și pornește din nou singură.
+În aplicație, butonul **⟳ Actualizări** din colțul dreapta-sus verifică dacă există o versiune nouă aici. Dacă există, descarcă installer-ul, îi verifică integritatea și îl rulează fără ferestre. Aplicația se închide, se actualizează și pornește din nou singură.
+
+> [!TIP]
+> **Treci de la 8.x la 9.x?** Apasă **⟳ Actualizări** ca de obicei. Apare o bară de progres, apoi aplicația pornește singură, iar pe Desktop apare scurtătura nouă. Exe-ul vechi de pe Desktop poate rămâne: deschide pur și simplu aplicația instalată.
 
 Istoricul complet al modificărilor e în **[CHANGELOG.md](CHANGELOG.md)**.
 
@@ -80,13 +84,13 @@ Se întâmplă la coperțile cu margine foarte deschisă pe fundal alb. Trage co
 <details>
 <summary><b>„Lipsește fontul HankenGrotesk.ttf”</b></summary>
 
-Exe-ul a fost compilat fără folderul `fonts`. Descarcă ultima versiune din Releases.
+Instalarea e incompletă. Descarcă ultima versiune din Releases și rulează installer-ul din nou.
 </details>
 
 <details>
 <summary><b>Actualizarea nu se instalează</b></summary>
 
-Mută aplicația într-un folder în care ai drept de scriere (de exemplu *Desktop*) și verifică dacă antivirusul nu blochează fișierul descărcat.
+Verifică dacă antivirusul nu blochează installer-ul descărcat. Altfel, descarcă manual ultimul `VinylVideoRender_Setup_….exe` din Releases și rulează-l: setările și scurtăturile rămân.
 </details>
 
 ---
