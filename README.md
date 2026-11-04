@@ -5,7 +5,6 @@
 <p align="center">
   <a href="https://github.com/H0dis/Vinyl-video-render/releases/latest"><img alt="Ultima versiune" src="https://img.shields.io/github/v/release/H0dis/Vinyl-video-render?label=versiune&color=3a6df0"></a>
   <img alt="Platformă" src="https://img.shields.io/badge/platform%C4%83-Windows%2010%20%2F%2011-1caa76">
-  <a href="https://github.com/H0dis/Vinyl-video-render/releases"><img alt="Descărcări" src="https://img.shields.io/github/downloads/H0dis/Vinyl-video-render/total?label=desc%C4%83rc%C4%83ri&color=7c5cd6"></a>
 </p>
 
 Aplicație desktop pentru magazinele de viniluri: încarci poza produsului (copertă + disc pe fundal de studio), programul decupează automat coperta și discurile și le animă peste videoclipul de prezentare al magazinului, împreună cu un bloc de text cu detaliile produsului.
