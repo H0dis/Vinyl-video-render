@@ -2,6 +2,14 @@
 
 Toate schimbările importante ale aplicației, cele mai noi primele.
 
+## [9.2] — 5 noiembrie 2026
+
+### Adăugat
+- **💿 Disc** pune acum **1–4 discuri**, în evantai în spatele copertei. Fiecare disc stă în spatele celui dinainte, iar distanța dintre ele se reglează.
+- Butonul **📂** de lângă preview deschide un folder cu ce a scos programul din poza curentă: `coperta.png`, `disc.png` și imaginea pusă pe video. Așa le poți verifica la mărime reală înainte de randare.
+- Un clic pe imaginea din preview o deschide la mărime reală.
+- Bifa **„Salvează și coperta (PNG) lângă video”** e înapoi, dar acum e debifată din start.
+
 ## [9.1] — 30 octombrie 2026
 
 Prima versiune publicată din seria 9. Versiunea 9.0 a fost doar de test și n-a fost publicată.
