@@ -11,7 +11,7 @@ Toate schimbările importante ale aplicației, cele mai noi primele.
 - Eticheta din **✏️ Text** pornește implicit pe **PRE-ORDER**. Am scos „IN STOC” din listă.
 
 ### Reparat
-- Aceeași poză putea da alt rezultat la a doua detecție decat la prima. La o poză cu 3 discuri în evantai, al treilea disc ieșea uneori practic peste al doilea și se vedeau doar 2. Acum detecția dă mereu același rezultat, iar când alegi numărul de discuri, două discuri nu mai pot ieși unul peste altul.
+- Aceeași poză putea da alt rezultat la a doua detecție decât la prima. La o poză cu 3 discuri în evantai, al treilea disc ieșea uneori practic peste al doilea și se vedeau doar 2. Acum detecția dă mereu același rezultat, iar când alegi numărul de discuri, două discuri nu mai pot ieși unul peste altul.
 - În editor, mânerele suprapuse nu mai blochează discurile. Se prinde mânerul cel mai apropiat de clic, iar un al doilea clic în același loc trece la mânerul de dedesubt. Înainte, centrul discului de lângă copertă se putea prinde doar după ce era tras mult în lateral.
 
 ## [9.2] — 5 noiembrie 2026
