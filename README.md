@@ -34,7 +34,7 @@ flowchart LR
 | ✏️ **Editor manual** | Colțurile copertei în mod dreptunghi sau perspectivă liberă, cercuri mutabile și redimensionabile, linie de separare disc / copertă. |
 | 🎬 **Animație pe video** | Coperta și discurile intră împreună, ca un singur obiect, exact cum apar în poză. |
 | 🎚️ **Poziție cu preview** | Muți rezultatul pe orizontală și verticală direct pe un cadru din video. |
-| 🔤 **Text pe video** | Artist, album, variantă, piesă, dată, preț și etichetă (PRE-ORDER, ÎN STOC…), cu fade-in. Se poate muta, mări și colora. |
+| 🔤 **Text pe video** | Artist, album, variantă, piesă, dată, preț și etichetă (implicit PRE-ORDER), cu fade-in. Se poate muta, mări și colora. |
 | 💿 **Disc propriu** | Pentru pozele care vin fără disc: aplicația taie un disc și îl lipește lângă copertă, ca și cum ar ieși din ea. Reglezi cât iese și cât de mare e, cu previzualizare. |
 | 🖼️ **Aplicare șablon** | Un tab pentru pozele de produs: aplici o poză pe un șablon (față sau spate), cu logo opțional, și salvezi în **WebP**, JPEG sau PNG. WebP la calitate 90 e cu ~85% mai mic decât PNG, ideal pentru un site cu multe produse. |
 | 🎵 **Conversie tracklist** | Al doilea tab: lipești un tracklist brut (de pe un site de discuri) și primești lista curată, fără timpi și cu artiștii invitați formatați ca „(Feat. A & B)”. |
